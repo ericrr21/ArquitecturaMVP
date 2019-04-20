@@ -14,7 +14,7 @@ import com.example.arquitecturamvp.Presenters.MainActivityPresenterImpl;
 public class MainActivity extends AppCompatActivity implements MainActivityView {
 
     //  Variables de IU
-    EditText num1,num2;
+    private EditText num1,num2;
     TextView resultado;
 
     //Presentador
